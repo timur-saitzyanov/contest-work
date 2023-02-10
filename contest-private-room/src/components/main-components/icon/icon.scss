@@ -1,0 +1,22 @@
+.small-card-contest__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 62px;
+}
+
+@media screen and (max-width: 1038px) {
+  .small-cards .main-contest-my-works-personal-profile-small-cards-contest .small-card-contest__img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .small-cards .small-card-contest__img {
+    width: auto;
+  }
+  .small-cards .small-card-contest__img svg {
+    min-width: 71px;
+  }
+}

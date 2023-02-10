@@ -1,0 +1,84 @@
+#contestPrivateRoom {
+  width: 100%;
+}
+.section__inner{
+    width: 100%;
+    margin-left: 25px;
+}
+.main-contest-my-works-personal-profile {
+  margin: 10px 0px 0px 0px;
+  display: grid;
+  //grid-template-columns: minmax(232px, 232px) 1fr;
+  grid-gap: 0 26px; }
+.menu-side{
+    display: inline-block;
+}
+@media screen and (max-width: 1510px){
+    .menu-side{
+        display: none;
+    }
+}
+@media screen and (max-width:1474px){
+  .goods__composition {
+    width: 220px !important;
+  }
+
+}
+@media screen and (max-width: 1024px) {
+  .main-contest-my-works-personal-profile .main-contest-my-works-personal-profile-main-block {
+    grid-column: span 2; }
+  .main-contest-my-works-personal-profile .main-contest-my-works-personal-profile-main-block__items-works {
+    grid-template-columns: 1fr 1fr 1fr; }
+  .main-contest-my-works-personal-profile .small-cards {
+    grid-column: span 2; } }
+@media screen and (max-width: 992px){
+    .main-contest-my-works-personal-profile-main-block__title,  .main-contest-my-works-personal-profile-main-block__subtitle{
+        padding-left: 15px;
+    }
+    .tabs-category, .main-contest-my-works-personal-profile-main-block__items-works {
+        margin-left: 15px !important;
+    }
+
+}
+@media screen and (max-width: 980px) {
+  .main-contest-my-works-personal-profile .main-contest-my-works-personal-profile-main-block__items-works {
+    grid-template-columns: 1fr 1fr; } }
+
+@media screen and (max-width: 660px) {
+  .main-condition-koncurs-category .main-condition-koncurs-category__item {
+    height: 180px;
+    margin-right: 26px;
+    width: 160px; }
+  .main-condition-koncurs-category .main-condition-koncurs-category__text {
+    font-size: 20px; }
+  .main-condition-koncurs-category .main-condition-koncurs-category__picture {
+    max-width: 122px;
+    height: 99px;
+    text-align: center; }
+  .main-condition-koncurs-category .main-condition-koncurs-category__picture svg {
+    max-width: 100%;
+    height: 5em; } }
+@media screen and (max-width: 586px) {
+  .main-contest-my-works-personal-profile .main-contest-my-works-personal-profile-main-block {
+    grid-column: span 2; }
+  .main-contest-my-works-personal-profile .main-contest-my-works-personal-profile-main-block__subtitle {
+    max-width: 100% !important; } }
+
+@media screen and(max-width:404px){
+  .line-main-contest-my-works-personal-profile-main-block-item-work{
+    margin-right: 25px;
+    width: calc(100% - 25px);
+  }
+  .btn-link-contest-body {
+    width: calc(100% - 25px);
+  }
+}
+@media screen and (max-width: 350px) {
+  .main-contest-my-works-personal-profile .btn-link-contest-body {
+    margin: 50px 0px 50px 0px;
+     }
+  .main-contest-my-works-personal-profile .btn-link-contest-body span {
+    font-size: 18px; }
+  .main-contest-my-works-personal-profile .main-contest-my-works-personal-profile-main-block__subtitle {
+    font-size: 18px;
+    padding-right: 20px; } }

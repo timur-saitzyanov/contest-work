@@ -1,0 +1,33 @@
+.main-contest-my-works-personal-profile-main-block__subtitle {
+  margin: 0;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  color: #4F4F4F;
+}
+
+
+.main-contest-my-works-personal-profile-main-block__subtitle--bold {
+  display: inline-block;
+  font-weight: 500;
+  color: #000;
+  margin-left: 5px;
+}
+.insideHide {
+  display: none;
+}
+@media screen and (max-width: 824px) {
+  .main-contest-my-works-personal-profile-main-block__subtitle {
+    max-width: 80vw;
+    display: block; }
+}
+@media screen and (max-width: 586px) {
+  .main-contest-my-works-personal-profile-main-block__subtitle {
+    max-width: 100% !important; } }
+
+@media screen and (max-width: 350px) {
+  .main-contest-my-works-personal-profile-main-block__subtitle {
+    font-size: 18px;
+    padding-right: 20px; } }

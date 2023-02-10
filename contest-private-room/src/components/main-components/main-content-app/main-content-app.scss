@@ -1,0 +1,21 @@
+.wrap-for-lk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapperForPaginator {
+  max-width: 400px;
+  @media screen and (max-width: 768px){
+    max-width: 100%;
+  }
+}
+@media screen and (max-width:1566px){
+  //.main-contest-my-works-personal-profile-main-block__items-works {
+  //  grid-template-columns: 1fr 1fr 1fr !important;
+  //}
+}
+@media screen and (max-width: 660px) {
+  .main-contest-my-works-personal-profile-main-block .main-contest-my-works-personal-profile-main-block__items-works {
+    grid-template-columns: 1fr !important;
+    justify-items: center; }}
+

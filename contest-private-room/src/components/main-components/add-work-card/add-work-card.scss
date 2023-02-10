@@ -1,0 +1,85 @@
+.main-contest-my-works-personal-profile-main-block-item-work--add-work {
+  margin-top: 62px;
+  display: grid;
+  max-width: 372px;
+  grid-template-rows: 1fr 175px;
+  box-sizing: border-box;
+  p {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #2C2C2C;
+    margin-right: 25px;
+  }
+}
+.main-contest-my-works-personal-profile-main-block-itemwork__img-cont {
+  max-width: 372px;
+  max-height: 372px;
+}
+.my-works-personal-profile-main-block-itemwork__img-cont--red-dashed-line {
+  border: 2px dashed #E7394E;
+  background: #FFFCFC;
+  border-radius: 5px;
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  transition: border 0.5s, background-color 0.5s,stroke 0.5s, fill 0.5s, color 0.5s linear 0s;
+  &:hover {
+    border: 2px dashed #fff;
+    color: #fff;
+    background-color: #FFB3BD;
+    & > .add-work-btn-bg p, .add-work-btn-bg svg path{
+      color: #fff;
+      stroke:#fff;
+      fill:white;
+    }
+    & > .add-work-btn-bg svg circle {
+      stroke:#FFB3BD;;
+      fill:#FFB3BD;;
+    }
+  }
+  &:focus {
+    outline: 1px rgba(233, 57, 194, 0.7) solid;
+  }
+  &:active {
+    border: 2px dashed #E7394E;
+    outline: none;
+    background: #FFFCFC;
+    & > .add-work-btn-bg p, .add-work-btn-bg svg path{
+      color:black;
+      stroke: #F85D71;
+      fill:#F85D71;
+    }
+    & > .add-work-btn-bg svg circle {
+      stroke:#C83F51;
+      fill:#F8F8F8;
+    }
+  }
+}
+
+.add-work-btn-bg {
+  min-width: 100%;
+  min-height: 100%;
+  margin-left: 8.60215%; }
+@media screen and (max-width: 660px) {
+   .main-contest-my-works-personal-profile-main-block-item-work--add-work {
+    grid-template-rows: 1fr auto; }
+  .main-contest-my-works-personal-profile-main-block .my-works-personal-profile-main-block-itemwork__img-cont--red-dashed-line {
+    width: 372px;
+    height: 372px; }
+}
+@media screen and (max-width: 404px) {
+  .main-contest-my-works-personal-profile-main-block .my-works-personal-profile-main-block-itemwork__img-cont--red-dashed-line {
+    width: calc(100vw - 30px);
+    height: 342px; }
+}
+

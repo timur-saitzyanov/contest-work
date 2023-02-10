@@ -1,0 +1,34 @@
+.btn-link-contest-body {
+  display: flex;
+  justify-content: center;
+}
+.btn-link-contest-body {
+  margin: 91px 0px 50px 0px; }
+@media screen and (max-width: 350px) {
+  .main-contest-my-works-personal-profile .btn-link-contest-body {
+    margin: 50px 0px 50px 0px;
+  }
+}
+@media screen and (max-width: 404px) {
+
+  .btn-link-contest {
+    width: 312px !important;
+  }
+  .small-cards .btn-link-contest-body {
+    margin-bottom: 50px;
+   } }
+.btn-link-contest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 328px;
+  height: 50px;
+  background: #C83F51;
+  border-radius: 5px; }
+.btn-link-contest span {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  color: #FFFFFF; }

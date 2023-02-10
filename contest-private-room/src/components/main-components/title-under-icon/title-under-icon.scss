@@ -1,0 +1,21 @@
+
+.small-card-contest__title {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  color: #4F4F4F;
+  text-align: center;
+  margin-top: 40px; }
+@media screen and (max-width: 730px) {
+  .small-card-contest__title {
+    text-align: left;
+    margin-top: 0;
+    width: 100%; }
+}
+
+@media screen and (max-width: 370px) {
+  .small-cards .small-card-contest__title {
+    font-size: 15px; }
+}

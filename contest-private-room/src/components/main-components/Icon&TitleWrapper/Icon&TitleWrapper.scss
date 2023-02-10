@@ -1,0 +1,15 @@
+.small-card-contest {
+  max-width: 220px;
+  text-align: center; }
+.small-card-contest:nth-child(3){
+  align-self: start;
+}
+@media screen and (max-width: 730px) {
+  .small-card-contest {
+    margin: 20px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    grid-gap: 20px;
+    max-width: 100%; }
+}

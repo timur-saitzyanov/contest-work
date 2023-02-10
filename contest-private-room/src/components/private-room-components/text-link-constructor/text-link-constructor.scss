@@ -1,0 +1,70 @@
+.main-contest-my-works-personal-profile-aside__profile-item:nth-child(2), .main-contest-my-works-personal-profile-aside__profile-item:nth-child(3) {
+  font-family: "Ubuntu", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 120%;
+  color: #000000; }
+
+.main-contest-my-works-personal-profile-aside__profile-item--active {
+  background-color: #F2F2F2;
+  position: relative; }
+
+.main-contest-my-works-personal-profile-aside__profile-item--active::after {
+  content: "";
+  position: absolute;
+  right: 8%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 7.71px;
+  height: 7.71px;
+  background-color: #C83F51;
+  border-radius: 50%; }
+
+.main-contest-my-works-personal-profile-aside__profile-item-link {
+  display: flex;
+  font-size: 16px;
+  color: #000;
+  padding: 9px 9px 9px 6px; }
+
+.main-contest-my-works-personal-profile-aside__exit {
+  margin-left: 6px;
+  display: flex;
+  align-items: center; }
+
+.hide-element {
+  display: none;
+}
+.main-contest-my-works-personal-profile-aside__profile-item::before {
+  display: none;
+}
+ul li.liClass, .main-contest-my-works-personal-profile-aside__profile-item {
+  padding-left: 0;
+}
+.profile-item-link-number {
+  position: absolute;
+  top: 0;
+  right: 15%;
+  font-family: "Ubuntu", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #C83F51;
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+.profile-item-link-sale {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 120%;
+  color: #C83F51;
+  padding-left: 5px;
+}
+.main-contest-my-works-personal-profile-aside-icon-exit {
+  margin-right: 8px;
+}
+li {
+  list-style-type: none;
+}

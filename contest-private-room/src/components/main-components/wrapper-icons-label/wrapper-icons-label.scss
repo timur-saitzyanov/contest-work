@@ -1,0 +1,14 @@
+.main-contest-my-works-personal-profile-small-cards-contest {
+  margin: 63px 0px 50px 0px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  align-items: center; }
+@media screen and (max-width: 730px) {
+  .main-contest-my-works-personal-profile-small-cards-contest {
+    grid-template-columns: 1fr;
+    justify-items: start;
+      margin-left: 16px;
+      margin-right: 16px;
+  }
+}

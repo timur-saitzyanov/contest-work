@@ -1,0 +1,54 @@
+.main-contest-my-works-personal-profile-main-block-item-work__more-func {
+  background-color: rgba(130, 130, 130, 0.6);
+  position: absolute;
+  //bottom: 14.83px;
+  bottom: 75px;
+  right: 19.42px;
+  border-radius: 5px;
+  width: 47.02px;
+  height: 35px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s linear;
+}
+.main-contest-my-works-personal-profile-main-block-item-work__more-func:hover svg circle {
+  fill:white;
+}
+.main-contest-my-works-personal-profile-main-block-item-work__more-func:focus .item-work-more-func-container{
+  display: block;
+}
+.item-work-more-func-container {
+  display: none;
+  width: 151.82px;
+  height: 80.34px;
+  background: #FFFFFF;
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  position: absolute;
+  right: 0;
+  top: 80%;
+  z-index: 5;}
+.item-work-more-func-container__change {
+  display: block;
+  width: 115px;
+  height: 19px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 120%;
+  color: #4F4F4F;
+  margin: 11.74px 0px 15px 17px; }
+.item-work-more-func-container__delete {
+  display: block;
+  width: 62px;
+  height: 19px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 120%;
+  color: #C83F51;
+  margin: 11.74px 0px 15px 17px; }
