@@ -1,0 +1,64 @@
+.sort-vote {
+  margin-top: 32px;
+}
+
+.sort-vote__text {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 100%;
+  color: #858585;
+
+  &:first-of-type {
+    margin-right: 16px;
+  }
+
+  &:last-of-type {
+    margin-right: 8px;
+  }
+}
+
+.sort-vote__btn {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 100%;
+  color: #2C2C2C;
+  margin-right: 16px;
+  &:after {
+    content: "";
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #000;
+  }
+  &:hover {
+    color: #5872F9;
+    &:after {
+      border-bottom: 1px dashed #5872F9;
+    }
+  }
+  &:active {
+    color: #001BA7;
+    &:after {
+      border-bottom: 1px dashed #001BA7;
+    }
+  }
+}
+.vote-tabs:checked  +  .sort-vote__btn {
+  position: relative;
+  color: #0022D4;
+  &:after {
+    content:"";
+    position: absolute;
+    border: none;
+  }
+}

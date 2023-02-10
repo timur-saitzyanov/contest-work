@@ -1,0 +1,187 @@
+.main-contest-app {
+  position: relative;
+    @media screen and (max-width: 991px){
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    @media screen and (max-width: 361px){
+         padding-left: 0;
+        padding-right: 0;
+    }
+}
+.archive-main-title {
+  margin: 60px 0 -10px 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  color: #000000;
+    & + div {
+        margin-left: 0 !important;
+    }
+}
+.winner__title {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.winner__label {
+  margin-left: 16px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  color: #000000;
+}
+.wrap-archive-btns {
+  margin-top: 40px;
+  display: flex;
+}
+.wrapperForPaginator {
+  max-width: 400px;
+  @media screen and (max-width: 768px){
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1252px) {
+  p.action__label {
+    padding-top: 30px !important;
+    font-size: 30px !important;
+  }
+  .action__cards {
+    grid-gap: 0 !important;
+  }
+  .take-part {
+    height: 394px !important;
+  }
+  .action__right-block {
+    top: 34% !important;
+  }
+  //.wrapper {
+  //  padding-left: 15px;
+  //  padding-right: 15px;
+  //}
+    .take-part__body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .archive-link-mobile-text {
+        padding-left: 15px;
+    }
+    .archive-link-mobile {
+        div div {
+            padding-right: 15px;
+        }
+    }
+    .tabs-category, .winner__title {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+  .action__left-block {
+    display: none;
+  }
+  .take-part {
+    height: 242px !important;
+  }
+  .action__label {
+    max-width: 500px !important;
+  }
+  .action__right-block {
+    top: 14% !important;
+  }
+  .btns-go-out {
+    margin-top: 12px !important;
+  }
+  .contest-work-initial-btn {
+    font-size: 14px !important;
+    padding: 0 12px !important;
+  }
+}
+
+@media screen and (max-width: 708px) {
+  .sort-vote {
+    display: none;
+  }
+  .sorting__select {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .action__right-block {
+    z-index: -1;
+    top: 18% !important;
+    right: -2% !important;
+  }
+  .take-part {
+    height: 290px !important;
+  }
+  .btns-go-out {
+    margin-top: 90px !important;
+  }
+  .action__right-block {
+    top: 33% !important;
+  }
+}
+
+@media screen and (max-width: 606px) {
+  .contest-work-initial-btn:nth-child(1), .contest-work-initial-btn:nth-child(2) {
+    margin-right: 8px !important;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .tabs-category-item{
+    font-size: 16px !important;
+    padding: 0 30px 23px 30px !important;
+  }
+  .archive-link {
+    display: none;
+  }
+  .archive-link-mobile {
+    display: flex !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contest-work-initial__btns {
+    overflow-x: scroll;
+    max-width: initial;
+    width: 420px;
+  }
+  .tabs-category-item{
+    font-size: 14px !important;
+    padding: 0 22px 25px 22px !important;
+  }
+  .App {
+    margin-top: 0 !important;
+  }
+
+}
+@media screen and (max-width: 361px){
+    .switching-arrow, .archive-main-title, {
+        padding-left: 16px;
+    }
+    .archive-main-title+div {
+        margin-left: 16px !important;
+    }
+    .FilterVoteMobile{
+        margin-left: 5px;
+    }
+  .cards-goods {
+    width: 100vw;
+    margin-left: -15px !important;
+  }
+  .cards-goods__container {
+    grid-gap: 0 !important;
+  }
+  .winnersWrap {
+    grid-gap: 30px !important;
+  }
+}

@@ -1,0 +1,37 @@
+.archive-link {
+  margin-top: -47px;
+  float: right;
+  border: 1px solid #C83F51;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 7px 26px ;
+  &:hover {
+    background-color: #C83F51;
+    .archive-link-text {
+      color: #ffffff;
+    }
+  }
+  &:focus {
+    border: 1px solid rgba(233, 57, 194, 0.7);
+    box-shadow: 0px 0px 0px 3px rgba(233, 57, 194, 0.3);
+    border-radius: 5px;
+  }
+  &:active {
+    border:none;
+    background-color: #FFF;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    .archive-link-text {
+      color: #C83F51;
+    }
+  }
+
+}
+.archive-link-text {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 100%;
+  color: #C83F51;
+}

@@ -1,0 +1,38 @@
+.switching-arrow {
+  display: flex;
+}
+.slash-between {
+  display: inline-block;
+  margin: 0 9px 0 9px;
+}
+.appearance-link, .go-out {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 120%;
+  color: #2C2C2C;
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #2C2C2C;
+  }
+}
+.current {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 120%;
+  position: relative;
+  color:#C83F51;
+}
+.hide-link {
+  display: none;
+}
+

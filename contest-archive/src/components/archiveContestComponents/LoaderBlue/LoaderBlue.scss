@@ -1,0 +1,16 @@
+.loaderBlue {
+  min-height: 300px;
+}
+.loaderBlue:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 1) url("/images/loader.svg") no-repeat top center;
+  z-index: 5;
+}

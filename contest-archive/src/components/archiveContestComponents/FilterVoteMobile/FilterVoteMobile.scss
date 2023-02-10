@@ -1,0 +1,40 @@
+.FilterVoteMobile {
+  display: none;
+  position: relative;
+  max-width: 168px;
+  select {
+    background-color: transparent;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+    padding: 5px 10px;
+  }
+}
+.FilterVoteMobile__icon {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.sorting__select{
+  margin: 31px 0px 0px 0px ;
+  max-width: 180px;
+  border:none;
+  display: none;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+}
+select option{
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+   
+@media screen and (max-width: 708px) {
+   .FilterVoteMobile {
+    display: block; }
+}
