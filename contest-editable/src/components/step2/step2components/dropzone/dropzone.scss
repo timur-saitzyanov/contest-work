@@ -1,0 +1,26 @@
+.image-preview {
+  width: 300px;
+  height: 300px;
+}
+.message-before-adding-photo.hide {
+  display: none;
+}
+.dropzone.dz-clickable {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #C4C4C4;
+  width: 302px;
+  height: 302px;
+  transition: 0.3s all linear;
+  background-color: #fff; }
+.dropzone.dz-clickable:hover {
+  border-color: #c82a2a;
+  background-color: rgba(5, 16, 173, 0.11); }
+
+.dz-message {
+  text-align: center; }
+.dz-message span {
+  display: block;
+  margin-bottom: 5px; }

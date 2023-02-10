@@ -1,0 +1,29 @@
+.btn-advice-mobile {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  border-top: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  height: 70px;
+  display: none;
+  grid-template-columns: 70px 1fr 10px 6px 10px ;
+  align-items: center;
+    width:100%;
+}
+.btn-advice-mobile__icon {
+  text-align: center;
+}
+.btn-advice-mobile__title{
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #4B4B4B;
+  text-align: left;
+}
+.btn-advice-mobile__icon--arrow{
+  grid-column: 4/5;
+}

@@ -1,0 +1,11 @@
+.add-ckeditor {
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+    margin-top: 100px;
+  &:hover {
+    path {
+      stroke: #2C2C2C;
+    }
+  }
+}

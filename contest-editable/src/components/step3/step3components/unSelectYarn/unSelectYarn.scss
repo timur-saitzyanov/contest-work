@@ -1,0 +1,23 @@
+.scale {
+   will-change: transform;
+  transform: scale3d(0.9,0.9,0.9) rotate3d(1,0,0, 80deg) scale3d(0,0,0);
+  transition: transform 0.2s linear;
+}
+.anim2 { will-change: transform;
+  height: 0;
+  transform:  scale3d(0,0,0) rotate3d(1,0,0, 80deg);
+}
+.anim2.active { will-change: transform;
+  transform:   scale3d(1,1,1) rotate3d(1 , 0 ,0, 0deg);
+  height: 76px;
+  transition: transform 0.1s linear 0.1s, height 0.1s 0s ;
+}
+.block {
+  pointer-events: none;
+  cursor: default;
+}
+.yarn-image-modal {
+    min-width: 50px;
+    max-width: 50px;
+    max-height: 50px;
+}

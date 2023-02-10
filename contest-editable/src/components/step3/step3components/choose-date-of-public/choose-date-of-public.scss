@@ -1,0 +1,67 @@
+.contest-work-step3-date-publication{
+  margin-top: 100px;
+}
+.contest-work-step3-date-publication__title {
+  margin-bottom: 32px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  color: #000000;
+}
+.radiobtn {
+  display: block;
+  cursor: pointer;
+  margin: 20px 0 0 0;
+  position: relative;
+  max-width: 150px; }
+.radiobtn input {
+  display: none; }
+.radiotext {
+  position: relative;
+  padding: 0 0 0 32px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  color: #000000;
+
+  &::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    border: 2px solid #EEEEEE;
+  }
+  &::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    border: 5px solid #2CC472;
+    opacity: 0; }
+  &:hover  {
+    &::before {
+      border: none;
+      background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='10' cy='10' r='9' stroke='%23FFB3BD' stroke-width='2'/%3E%3Ccircle cx='10' cy='10' r='5' fill='%23FFB3BD' stroke='%23FFB3BD' stroke-width='2'/%3E%3C/svg%3E");
+    }
+  }
+}
+.radio:checked + .radiotext::after {
+  opacity: 1;
+}
+.radio:checked:hover + .radiotext::after, .radio:checked:hover + .radiotext::before {
+  opacity: 1;
+  border: 5px solid  #12974F;
+  background: none;
+}

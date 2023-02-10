@@ -1,0 +1,338 @@
+.choose-of-yarn {
+  font-family: "Ubuntu" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  color: #2C2C2C;
+  padding-right: 10px;
+}
+.wrap-main-step3 {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 428px;
+}
+.right-block-step3 {
+  display: grid;
+  justify-items: end;
+}
+.third-step-main-btn {
+  position: absolute;
+  right: 0;
+  top: 200px;
+  background-color: #C83F51;
+  span {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+  }
+}
+.text-subtitle {
+  display: flex;
+  margin: 100px 0 30px 0;
+  font-family: "Ubuntu" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  color: #000000;
+}
+.svg-instagram {
+  margin-right: 16px;
+  //display: none;
+}
+.center-block {
+  display: grid;
+  justify-items: center;
+}
+.hide-modal-yarn {
+  opacity: 0;
+  z-index: -25;
+  visibility: hidden;
+  transition: all 1s linear;
+  position: absolute;
+}
+
+
+@media screen and (max-width: 1548px){
+  .top-app, .contest-work-initial__container {
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width:1460px){
+  .third-step-main-btn {
+    max-width: 280px;
+  }
+  .right-block-step3 .block-step3 {
+    grid-template-columns: auto auto 60px;
+  }
+  .wrap-main-step3 {
+    grid-template-columns: 1fr 372px;
+  }
+}
+@media screen and (max-width:1400px){
+  .top-app, .contest-work-initial__container {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 1334px){
+  .wrap-main-step3{
+    grid-template-columns: 1fr 368px;
+  }
+  .svg-3step {
+    display: none;
+  }
+}
+@media screen and (max-width: 1256px){
+  .wrap-main-step3{
+    grid-template-columns: 1fr 328px;
+  }
+  .contest-work-initial-next-step {
+     max-width: 280px;
+   }
+}
+@media screen and (max-width: 1210px){
+  .aria-list > div , .scrollBar-yarn-OnPage > div{
+    width: 350px !important;
+  }
+}
+@media screen and (max-width: 1080px){
+  .aria-list, .scrollBar-yarn-OnPage {
+    height: 65vh;
+    & > div {
+      width: 450px !important;
+    }
+  }
+  .wrap-search {
+    margin-left: 52px;
+    margin-right: 52px;
+    max-width: 100% !important;
+  }
+  .wrapSelected_Total {
+    padding-right: 52px;
+    padding-left: 52px;
+  }
+  .modal-add-yarn__search {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:1060px){
+  .contest-work-initial__container{
+    margin-left: 0;
+  }
+  .yarn-on-page-item {
+    padding-left: 40px !important;
+  }
+  .aria-list, .scrollBar-yarn-OnPage {
+    height: 65vh;
+    & > div {
+      width: 400px !important;
+    }
+  }
+}
+
+@media screen and (max-width:980px){
+  .third-step-main-btn {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 968px){
+    .aria-list, .scrollBar-yarn-OnPage {
+    height: 65vh;
+    & > div {
+      width: 350px !important;
+    }
+  }
+}
+@media screen and (max-width:900px){
+  .third-step-main-btn {
+    max-width: 202px;
+  }
+  .wrap-main-step3 {
+    grid-template-columns: 1fr 224px;
+  }
+}
+
+@media screen and (max-width:860px){
+   .aria-list, .scrollBar-yarn-OnPage {
+    & > div {
+      width: 317px !important;
+    }
+  }
+}
+@media screen and (max-width: 790px){
+  .aria-list {
+    height: 55vh;
+    & > div {
+      width: 100% !important;
+    }
+  }
+  .total_yarn {
+    width: 100%;
+  }
+  p.choose-of-yarn-modal {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:774px){
+  h1.choose-of-yarn, p.text-subtitle, p.contest-work-step3-date-publication__title{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 760px){
+  .modal-add-yarn__title {
+    font-size: 20px !important;
+  }
+}
+@media screen and (max-width: 716px){
+   .choose-of-yarn-modal {
+    font-size: 18px !important;
+  }
+  .aria-list {
+    height: 54.6vh;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .yarn-on-page-item {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .block-step3 {
+    display: none !important;
+  }
+  .third-step-main-btn {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  section.contest-work-step3-date-publication {
+    margin-top: 50px;
+  }
+  .wrap-main-step3 {
+    grid-template-columns: 1fr;
+  }
+  p.text-subtitle {
+    margin-top: 50px;
+  }
+  .third-step-main-btn {
+    margin: 80px auto 0 auto;
+  }
+}
+@media screen and (max-width: 580px){
+  .wrapSelected_Total {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  h1.choose-of-yarn-modal {
+    padding-left: 0;
+    padding-right: 10px;
+  }
+  .wrap-search, .modal-yarn-btn{
+    margin-left: 0 !important;
+    margin-right: 0;
+  }
+
+}
+@media screen and (max-width:512px){
+  .btn-advice-mobile{
+    display: grid !important;
+  }
+  .advice-appearance {
+    display: none;
+  }
+}
+@media screen and (max-width:500px){
+  .modal-yarn-close  {
+    top: 10px !important;
+  }
+   .choose-of-yarn-modal {
+     max-width: 350px;
+  }
+  .aria-list {
+    height: 54vh;
+  }
+}
+@media screen and (max-width: 432px){
+  .third-step-main-btn {
+    max-width: 100%;
+    width: 100%;
+    max-height: 50px;
+    margin: 80px 0 0 0 ;
+  }
+
+}
+.step3preview{
+    display: flex;
+    justify-content: space-between;
+
+    &__title{
+        font-family: 'Ubuntu', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+    }
+    &__btnPreviewTop{
+        background: #C83F51;
+        border-radius: 5px;
+        font-family: 'Ubuntu', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 100%;
+        padding: 8px 24px;
+        color:#fff;
+        border:none;
+        cursor:pointer;
+        &.disabled{
+            background-color: #a9a5a5;
+        }
+    }
+    &__btnPreviewBottom{
+        cursor:pointer;
+        margin-top: 60px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        color:#fff;
+        border:none;
+        background: #C83F51;
+        padding: 16px 94px ;
+        border-radius:5px;
+        &.disabled{
+            background-color: #a9a5a5;
+        }
+    }
+}
+@media screen and (max-width: 817px){
+    .step3preview {
+        display: block;
+        &__title {
+            font-size: 22px;
+            display: block;
+            margin-right: 30px;
+            line-height: 100%;
+        }
+        &__btnPreviewTop{
+            display: block;
+            margin-top: 30px;
+        }
+    }
+}
+@media screen and (max-width: 421px){
+    .step3preview__title {
+        max-width: 300px;
+    }
+}

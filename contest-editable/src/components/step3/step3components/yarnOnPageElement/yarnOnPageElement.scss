@@ -1,0 +1,26 @@
+.yarn-on-page-item.anim:hover {
+  transition: 0.2s linear;
+  border-color: #219653;
+}
+.yarn-on-page-item{
+  display: flex;
+  align-items: center;
+  border: 2px solid #2CC472;
+  box-sizing: border-box;
+  border-radius: 5px;
+  max-height: 0;
+  height: 0;
+  transform: scale3d(0,0,0) rotate3d(1,0,0, 50deg);
+}
+.yarn-on-page-item.anim {
+  height:auto;
+  max-height: inherit;
+  margin: 6px 0;
+  padding: 7px 15px 7px 40px;
+  transform: scale3d(1,1,1) rotate3d(1,0,0, 0deg);
+  transition: height 0.1s linear 0s, transform 0.2s linear 0.1s;
+}
+.yarn-on-page-item.anim.aft {
+  transform:scale3d(1.05,1.05,1.05) rotate3d(1,0,0, 0deg) scale3d(0,0,0);
+  transition: transform 0.2s linear;
+}

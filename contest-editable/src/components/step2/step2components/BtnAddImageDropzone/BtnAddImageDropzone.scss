@@ -1,0 +1,12 @@
+.add-dropzone {
+  border-radius: 5px;
+  cursor: pointer;
+  border:none;
+  margin-right: 16px;
+  margin-top: 100px;
+  &:hover {
+    path {
+      fill: #2C2C2C;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.contest-work-initial__btns {
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  max-width: 380px;
+}
+.contest-work-initial__btns label {
+  max-height: 36px;
+}
+.contest-work-initial-btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 20px;
+  transition: 0.2s all linear 0s;
+  height: 34px;
+  box-sizing: border-box;
+  border-radius: 43px;
+  background-color: transparent;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #2C2C2C;
+  border: 1px solid #EEEEEE;
+
+  &:nth-child(1),&:nth-child(2){
+    margin-right: 16px;
+  }
+}
+.radio-step1:checked  +  .contest-work-initial-btn{
+  border: 1px solid #C83F51;
+}

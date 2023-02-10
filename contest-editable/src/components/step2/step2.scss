@@ -1,0 +1,312 @@
+.contest-work-step-2-blocks {
+  position: relative;
+}
+
+.contest-work-step-2 {
+  position: relative;
+}
+.main-editable {
+  max-width: 940px;
+}
+.contest-work-step-2-blocks {
+  display: grid;
+  grid-template-columns: 1fr 373px;
+}
+
+.block-step {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 3px;
+}
+
+.contest-work-initial__text-step1 {
+  margin-left: 10px;
+}
+
+.step-text-number__title {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  color: #BDBDBD;
+  margin-bottom: 10px;
+}
+
+.step-text-number__title.step-text-number__title--active {
+  color: #E7394E;
+  line-height: 120%;
+}
+
+.step-text-number__text {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+
+.svg-step-right {
+  margin-top: 9px;
+
+}
+
+.svg-active-tablet {
+  display: none;
+  margin-top: 3px;
+  max-width: 45px;
+}
+
+.step-text-number__text {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+
+.block-step-right {
+  grid-column: span 2;
+}
+
+.block-step-right-third {
+  margin: 121px 0 0 0;
+  display: grid;
+  justify-items: end;
+  grid-template-rows: auto auto;
+}
+
+.step-advice {
+  max-width: 1220px;
+  transition: all 0.5s;
+  grid-column: span 2;
+  position: relative;
+  margin: 70px 0 0 0;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23E0E0E0FF' stroke-width='6' stroke-dasharray='11%2c 17' stroke-dashoffset='0' stroke-linecap='round'/%3e%3c/svg%3e");
+  border-radius: 5px;
+  padding: 25px 33px 30px 50px;
+}
+
+
+
+.step-advice-title {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  color: #4F4F4F;
+}
+
+.lamp-icon {
+  margin: 0 22px 0 0;
+}
+
+.step-advice-text-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0 61px;
+}
+
+.step-advice-subtitle {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333333;
+  position: relative;
+  display: inline-block;
+  margin: 0 0 25px 0;
+}
+
+
+.step-advice-text {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000;
+  margin: 0 0 25px 0;
+}
+
+.step-advice-text span {
+  display: block;
+  line-height: 150%;
+  padding: 3px 10px 3px 0;
+}
+
+span.step-advice-text--unique {
+  margin: 0 0 30px 0;
+  display: block;
+}
+
+.active-advice-btn {
+  position: absolute;
+  z-index: -1;
+  visibility: hidden;
+  margin: 118px 0 0 0;
+  display: grid;
+  grid-column: span 2;
+  justify-items: end;
+  background-color: transparent;
+  max-width: 100%;
+}
+
+.active-advice-btn button {
+  background-color: transparent;
+  transition: transform 0.3s linear 0s;
+}
+
+.active-advice-btn button:hover {
+  transform: rotate(25deg);
+}
+
+.active-advice-btn button:hover svg circle {
+  transition: fill 0.3s linear 0s;
+  fill: #E7394E;
+}
+
+.active-advice-btn.on {
+  position: relative;
+  visibility: visible;
+  z-index: 1;
+}
+
+.look-example-processing {
+  display: grid;
+  justify-items: end;
+}
+
+.look-example-processing-text {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #4977B4;
+  margin: 0 12px 0 0;
+}
+
+.ck.ck-toolbar__items {
+  margin-left: -30px;
+}
+
+.mobile-svg {
+  display: none;
+}
+
+
+@media screen and (max-width: 1276px) {
+  .contest-work-step-2-blocks--step-2 {
+    grid-template-columns: 1fr 330px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .block-step-right--step-2 {
+    justify-items: center !important;
+  }
+  .contest-work-step-2-blocks--step-2 {
+    grid-template-columns: 1fr 260px;
+  }
+  .step-text-number__title--second svg{
+    width: 117px;
+  }
+
+
+}
+
+@media screen and (max-width: 762px) {
+  .step-advice {
+    max-width: 550px;
+  }
+  .step-advice-text-block {
+    grid-template-columns: 1fr;
+  }
+  .step-advice-text-block-right .step-advice-subtitle:nth-last-child(2) {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .main-editable {
+    grid-column: span 2;
+  }
+  .steps {
+    grid-column: span 2;
+  }
+  .block-step-right--step-2 {
+    justify-items: end !important;
+  }
+}
+
+@media screen and (max-width: 644px) {
+  .modal-content__list-group {
+    padding: 0 20px 0 20px !important;
+  }
+}
+
+@media screen and (max-width: 548px) {
+  .dropzone-block-btn {
+    width: 128px;
+    height: 32px;
+  }
+  .save-change-text {
+    display: none;
+  }
+  .save-change-text-mobile {
+    display: block;
+  }
+}
+
+
+@media screen and (max-width: 512px) {
+  .step-advice {
+    display: none;
+  }
+  .btn-advice-mobile{
+    display: grid !important;
+  }
+
+}
+@media screen and (max-width: 460px) {
+  .contest-work-initial-next-step{
+    margin-right: auto;
+    width: 100%;
+    max-width: 100%;
+  }
+  .contest-work-initial__text-step2 {
+    justify-self:start;
+  }
+  .step-text-number__title--second svg {
+    width: 168px;
+  }
+  .step-text-number__text{
+    max-width: 205px !important;
+  }
+  .next-step-text {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .step2-text-number {
+    width: 100%;
+  }
+  .second-step-main-btn {
+    max-width: 100% !important;
+    width: 100%;
+    margin-right: 0;
+    max-height: 100%;
+  }
+  .step-text-number--step2 {
+    width: 100%;
+  }
+}
+

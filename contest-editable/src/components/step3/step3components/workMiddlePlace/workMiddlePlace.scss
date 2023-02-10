@@ -1,0 +1,87 @@
+////////////////////////////////
+////////////////////////////////
+////////////////////////////////
+//СТИЛИ ДЛЯ МОДАЛКИ ПРЯЖИ
+
+@keyframes myAnim {
+  from {
+    top: -100%;
+  }
+  to {
+    top: 0;
+  }
+}@keyframes myAnim- {
+  from {
+    top: 0;
+  }
+  to {
+    top: -100%;
+  }
+}
+
+.modal-yarn {
+  position: fixed;
+  padding: 15px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 1050;
+  animation-name: myAnim;
+  animation-duration: 0.5s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+  overflow-y:auto;
+}
+.modal-yarn.animModal {
+  animation-name: myAnim-;
+  animation-duration: 0.5s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+.modal-yarn-body {
+  position: relative;
+}
+.modal-yarn-close{
+  cursor: pointer;
+  position: absolute;
+  top: 13px;
+  right: 11px;
+}
+.choose-of-yarn-modal {
+  padding-left: 52px;
+  padding-top: 30px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #2C2C2C;
+}
+
+.modal-yarn-btn {
+  background-color: #C83F51;
+  border-radius: 5px;
+  width: 328px;
+  height: 50px;
+  border:none;
+  cursor: pointer;
+  margin-left: 52px;
+  &:hover {
+    background: #A22435;
+  }
+  &:active {
+    background: #FFB3BD;
+  }
+  span {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-align: center;
+  }
+}

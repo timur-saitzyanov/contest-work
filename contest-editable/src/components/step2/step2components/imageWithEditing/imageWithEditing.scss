@@ -1,0 +1,65 @@
+.imageWithEditing{
+    margin: 15px 0;
+  max-width: 746px;
+  position: relative;
+  &:hover {
+    .imageWithEditing__btnS {
+     visibility: visible;
+    }
+  }
+  &:active {
+     .imageWithEditing__btnS {
+     visibility: visible;
+    }
+  }
+}
+.imageWithEditing__btnS{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  visibility: hidden;
+  transition: visibility 0.2s linear 0s;
+    @media screen and (max-width: 1366px){
+        visibility: visible;
+    }
+}
+.imageWithEditing__remove{
+  cursor: pointer;
+  height: 30px;
+  background-color: transparent;
+  border:none;
+  svg {
+    font-size: 0;
+  }
+  &:hover {
+    svg circle{
+      fill:white;
+      opacity: 1;
+    }
+  }
+}
+.imageWithEditing__edit{
+  cursor: pointer;
+  margin-right: 20px;
+  width: 124px;
+  height: 30px;
+  border: 1px solid #000000;
+  line-height: 100%;
+  border-radius: 5px;
+  background-color: #EDEDED;
+  opacity: 0.7;
+  &:hover {
+    background-color: #fff;
+    opacity: 1;
+  }
+  span {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 100%;
+    color: #000000;
+  }
+}

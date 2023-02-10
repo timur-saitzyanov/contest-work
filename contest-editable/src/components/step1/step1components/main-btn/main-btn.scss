@@ -1,0 +1,27 @@
+.contest-work-initial-next-step {
+  transition: 0.3s all linear .0s;
+  width: 328px;
+  height: 50px;
+  border-radius: 5px;
+  background-color:#EEEEEE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.contest-work-initial-next-step span {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #C4A0A0; }
+.contest-work-initial-next-step.active {
+  background-color: #C83F51;
+    &:hover {
+        background-color: #A22435;
+    }
+  span {
+    color:#fff;
+  }
+}

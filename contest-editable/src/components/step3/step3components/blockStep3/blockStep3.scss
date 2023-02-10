@@ -1,0 +1,49 @@
+.block-step3 {
+  display: grid;
+  grid-template-columns: auto auto 120px;
+  margin-top: 3px;
+  margin-bottom: 120px;
+}
+.contest-work-initial__text-step1 {
+  margin-left: 10px;
+}
+
+.step-text-number__title {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  color: #BDBDBD; margin-bottom: 10px;}
+.step-text-number__title.step-text-number__title--active {
+  color: #E7394E;
+  line-height: 120%;
+}
+
+.step-text-number__text {
+  max-width: 202px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 150%;
+  color: #2C2C2C;
+}
+
+.svg-step-right {
+  margin-top: 9px;
+
+}
+.svg-active-tablet {
+  display: none;
+  margin-top: 3px;
+  max-width: 45px;
+}
+.svg-3step {
+
+}
+@media screen and (max-width: 900px){
+  .step-text-number__text{
+    max-width: 189px;
+  }
+}

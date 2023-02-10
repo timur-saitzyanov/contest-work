@@ -1,0 +1,130 @@
+@keyframes successModal {
+  from {
+    transform: translateX(100vw);
+  }
+  to {
+      transform:  translate(-50%, -50%);
+  }
+}
+@keyframes successModalClose {
+  from {
+      transform: translate(-50%, -50%);
+  }
+  to {
+      transform: translateX(100vw);
+  }
+}
+.blackout {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: 1050;
+}
+.success-modal{
+  animation-name: successModal;
+  animation-delay: 0.2s;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  display: block;
+  position: absolute;
+  top: 50%;
+  z-index: 1000;
+  width: 603px;
+  background-color: #fff;
+    left:50%;
+    transform:scale(0) translate(-50%, -50%);
+    &.close{
+      animation-name: successModalClose;
+      animation-delay: 0.2s;
+      animation-duration: 0.5s;
+      animation-fill-mode: forwards;
+    }
+}
+.closeModal{
+  margin-top: 28px;
+  margin-right: 26px;
+    float: right;
+  font-size: 0;
+  cursor: pointer;
+}
+.success-modal__content{
+  padding: 13px 52px 50px 52px;
+}
+.success-modal__top{
+    margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.success-modal__title{
+  margin-left: 16px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #2C2C2C;
+}
+.success-modal__text{
+  margin: 40px 0 32px 0;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+.success-modal__btn{
+  width: 128px;
+  height: 32px;
+  background-color: #C83F51;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover {
+    background: #A22435;
+  }
+  &:active {
+    background: #FFB3BD;
+  }
+}
+.btn-text{
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+.sberIcon {
+  font-size: 0;
+}
+@media screen and (max-width: 619px) {
+    .success-modal {
+        width: 360px;
+        &__title {
+            font-size: 20px;
+            line-height: 140%;
+        }
+        &__content {
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+    }
+}
+@media screen and (max-width: 361px) {
+    .success-modal {
+        height: 100vh;
+        &__btn {
+            position: absolute;
+            bottom: 30px;
+            left: 16px;
+            width: 328px;
+            height: 50px;
+        }
+    }
+    .btn-text{
+         font-size: 16px;
+     }
+}

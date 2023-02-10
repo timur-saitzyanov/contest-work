@@ -1,0 +1,24 @@
+.btn-add-yarn {
+  background-color: #C83F51;
+  border-radius: 5px;
+  width: 163px;
+  height: 32px;
+  border:none;
+  margin-top: 32px;
+  cursor: pointer;
+  &:hover{
+    background: #A22435;
+  }
+  &:active {
+    background: #FFB3BD;
+  }
+  span {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-align: center;
+  }
+}

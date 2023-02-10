@@ -1,0 +1,132 @@
+//.wrapper {
+//  display: flex;
+//  flex-direction: column;
+//  margin: 0 auto;
+//  min-height: 100%;
+//  max-width: 1598px;
+//  padding: 0 15px;
+//}
+
+.contest-work-initial__container {
+  margin-top: 60px;
+  position: relative;
+  margin-left: 15.95745%;
+}
+
+@media screen and (max-width: 1334px) {
+  .svg-step-right {
+    display: none;
+  }
+  .svg-active-tablet {
+    display: block !important;
+  }
+  .block-step {
+    grid-template-columns: 45px auto !important;
+    max-width: 220px;
+  }
+  .mainWrapper {
+    grid-template-columns: auto 379px !important;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .contest-work-initial__container {
+    margin-left: 10%;
+  }
+}
+@media screen  and (max-width: 1100px){
+  .contest-work-initial__container {
+    margin-left: 7%;
+  }
+  .mainWrapper {
+    grid-template-columns: auto 220px 30px !important;
+  }
+}
+@media screen  and (max-width: 980px){
+  .contest-work-initial-next-step {
+    max-width: 280px ;
+    margin-right: 50px;
+  }
+}
+@media screen  and (max-width: 900px){
+  .contest-work-initial-next-step {
+    max-width: 134px !important;
+    margin-right: 70px;
+    max-height: 32px;
+  }
+  .next-step-text {
+    font-size: 12px !important;
+    line-height: 12px !important;
+  }
+  .contest-work-initial__text-step2 {
+    margin-right: 0 !important;
+  }
+  .step-text-number__title {
+    font-size: 20px !important
+  }
+  .block-step-right {
+    margin-top: 40px !important;
+  }
+  .grey-svg-step {
+    width: 117px;
+  }
+  .save-changes-text {
+    width: 240px;
+  }
+}
+@media screen  and (max-width: 780px){
+  .contest-work-initial__container {
+    margin-left: 0 !important;
+  }
+}
+@media screen  and (max-width: 720px){
+  .contest-work-initial__container {
+    margin-left: 0 !important;
+  }
+  .mainWrapper {
+    grid-template-columns: auto 220px 0px !important;
+  }
+}
+
+@media screen  and (max-width: 670px){
+  .contest-work-initial__container {
+    margin-left: 0 !important;
+  }
+  .mainWrapper {
+    grid-template-columns: auto 220px 0px !important;
+  }
+  .block-step {
+    display: none !important;
+  }
+  .save-changes-text {
+    display: none;
+  }
+}
+@media screen and (max-width: 460px){
+  .contest-work-initial-next-step {
+    max-width: 100% !important;
+    max-height: 50px !important;
+  }
+}
+@media screen and (max-width: 375px){
+  .contest-work-initial-btn {
+    padding: 0 12px !important;
+  }
+}
+@media screen and (max-width: 360px){
+  .contest-work-initial-next-step{
+    width: calc(100vw - 30px) !important;
+    max-width: 100%;
+    max-height: 50px;
+    margin-right: 0 !important;
+  }
+  .block-step-right {
+    justify-items: start !important;
+  }
+  .grey-svg-step {
+    width: 181px ;
+  }
+  .step-text-number__text {
+    max-width: 252px !important;
+  }
+}

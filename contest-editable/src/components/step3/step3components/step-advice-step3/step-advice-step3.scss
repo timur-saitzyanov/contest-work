@@ -1,0 +1,61 @@
+.advice-appearance {
+  width: 100%;
+  max-width: 1220px;
+  background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='%23E0E0E0FF' stroke-width='6' stroke-dasharray='11%2c 17' stroke-dashoffset='0' stroke-linecap='round'/%3e%3c/svg%3e");
+  border-radius: 5px;
+  position: relative;
+  margin: 45px 0 0 0;
+  padding: 25px 33px 30px 33px;
+  transition: margin-left 1s ease-in-out;
+  &.close {
+    margin-left: -200vw;
+  }
+}
+.advice-appearance h2 {
+  margin: 10px 0 33px 0;
+  display: flex;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  color: #4F4F4F; }
+.advice-appearance h2 span {
+  margin: 0 25px 0 0; }
+.close-advise {
+  cursor: pointer;
+  position: absolute;
+  top: 27px;
+  right: 30px;
+  transition: transform 0.3s linear 0s;
+  &:hover {
+    transform: rotate(30deg);
+  }
+}
+
+
+.point-to__text {
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #333333;
+  margin: 0 0 28px 0;
+  max-width: 748px; }
+
+.point-to-tags {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #333333;
+  margin-bottom: 15px; }
+@media screen and (max-width: 700px){
+  .advice-appearance {
+    max-width: 550px;
+  }
+}

@@ -1,0 +1,19 @@
+.advice-section {
+  position: relative;
+  display: grid;
+  justify-items: center;
+}
+.advice-section.closeA {
+  margin-left: -200vw;
+  transition: margin-left 1s linear;
+}
+.step-advice-close {
+  cursor: pointer;
+  border: none;
+  float: right;
+  background-color: transparent;
+  transition: transform 0.3s linear 0s;
+  &:hover {
+    transform: rotate(30deg);
+  }
+}
