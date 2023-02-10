@@ -1,0 +1,280 @@
+.contest-condition {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.n-content{
+  display: block;
+}
+p, h2 {
+  margin: 0;
+}
+#contest-condition {
+  width: 100%;
+}
+.main-condition-koncurs-take-part {
+  margin-top: 50px;
+}
+.main-condition-koncurs-take-part__title {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  color: #000000;
+}
+.main-condition-koncurs-take-part__items {
+  margin: 24px 0px 0px 0px; }
+ul li::before {
+  content: "";
+  background-color: transparent;
+}
+.main-condition-koncurs-take-part__item {
+  padding-left: 0;
+  font-family: "Ubuntu", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 150%;
+  color: #000000;
+  margin: 18px 0px 0px 0px;
+  display: flex;
+  align-items: center;
+}
+.item-number-condition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  background: #C83F51;
+  border-radius: 50%;
+  margin: 0px 16px 0px 0px;
+  flex-shrink: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+.main-condition-koncurs-take-part__text {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  color: #000000;
+  & a {
+    color: #E939C2;
+    &:hover {
+      color: #993182;
+    }
+    &:active {
+      color: #E939C2;
+    }
+  }
+}
+.main-condition-koncurs-take-part__notice {
+  margin-top: 24px;
+
+  & span {
+    display: block;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    color: #333333;
+  }
+}
+.category-condition {
+  margin-top: 50px;
+}
+.category-title {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  color: #000000;
+}
+.category-condition-items {
+  margin-top: 32px;
+  max-width: 392px;
+  display: flex;
+  justify-content: space-between;
+}
+.category-condition-item-img {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
+.category-condition-item {
+  width: 94px;
+  height: 116px;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 17px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.category-condition-item__text {
+  display: block;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #000000;
+  margin-top: 4px;
+  text-align: center;
+}
+.category-condition__text {
+  margin-top: 24px;
+}
+.prize {
+  margin-top: 60px;
+}
+.prize-title {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  color: #000000;
+}
+.prize-title-active {
+  margin-right: 8px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  color: #C83F51;
+}
+.prize-items {
+  margin-top: 32px;
+  max-width: 392px;
+  display: flex;
+  justify-content: space-between;
+}
+.prize-item {
+  width: 94px;
+  height: 116px;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 17px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.prize-item-img {
+  margin-top: 14px;
+  text-align: center;
+}
+.prize-item-number {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: #000000;
+}
+.prize-item-text {
+  margin-top: -1px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 140%;
+  text-align: center;
+  color: #000000;
+}
+.prize-main-text {
+  max-width: 762px;
+  margin-top: 24px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 140%;
+  color: #333333;
+}
+.main-condition-koncurs-require {
+  opacity: 1;
+  margin: 50px 0px 0px 0px ;
+  max-width: 800px;
+  // .main-condition-koncurs-require__title
+
+  &__title {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+  }
+
+  // .main-condition-koncurs-require__item
+
+  &__item {
+    margin: 40px 0px 0px 0px ;
+  }
+
+  // .main-condition-koncurs-require__subtitle
+
+  &__subtitle {
+    margin-top: 40px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2C2C2C;
+  }
+
+  // .main-condition-koncurs-require__text
+
+  &__text {
+    margin-top: 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000000;
+    span {
+      display: block;
+    }
+  }
+
+  // .main-condition-koncurs-require__add-work
+
+  &__add-work {
+    color: #E7394E;
+  }
+
+  // .main-condition-koncurs-require__subtitle--active
+
+  &__subtitle--active {
+    color: #C83F51;
+  }
+  @media screen and (max-width:502px) {
+
+    .main-condition-koncurs-require__subtitle {
+      line-height: 110%;
+      margin-bottom: 10px;
+    }
+  }
+  @media screen and (max-width:344px) {
+
+    .main-condition-koncurs-require__title {
+      font-size: 26px;
+    }
+  }
+
+}
+@media screen and (max-width: 991px) {
+    p.action__label, {
+        padding-left: 15px !important;
+    }
+    .go-to-out, .main-condition-koncurs-take-part, .category-condition, .prize, .main-condition-koncurs-require{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
