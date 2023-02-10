@@ -1,0 +1,48 @@
+.slide-wrapper{
+  display: grid;
+  justify-items:center ;
+}
+.one-row {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.bg-square {
+  margin-right: 8px;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+}
+.yarn-name {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 120%;
+  color: #000000;
+}
+.color-number {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+.color-text{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #2C2C2C;
+}
+@media screen and (max-width: 700px){
+  .slide-image {
+    width: 80%;
+  }
+}
+@media screen and (max-width:480px){
+  .slide-image {
+    width: 114px;
+  }
+}
