@@ -1,0 +1,41 @@
+.archive-link-mobile {
+  margin-top: 40px;
+  display: none;
+  align-items: center;
+  padding: 26px 0;
+  border-bottom: 1px solid #EEEEEE;
+  border-top: 1px solid #EEEEEE;
+
+}
+.archive-link-mobile-text {
+  margin-right: auto;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #4B4B4B;
+}
+.count-of-archive-work {
+  margin-right: 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    display: block;
+    width: 30px;
+    height: 16px;
+    top: -2.5px;
+    left:-7.5px ;
+    background: #C83F51;
+    border-radius: 23px;
+  }
+}

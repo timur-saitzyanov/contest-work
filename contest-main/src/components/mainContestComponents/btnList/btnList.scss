@@ -1,0 +1,40 @@
+.contest-work-initial__btns {
+  margin: 52px 0px 0px 0px;
+  display: flex;
+  max-width: 585px;
+}
+.contest-work-initial__btns label {
+  max-height: 34px;
+}
+.contest-work-initial-btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 20px;
+  transition: 0.2s all linear 0s;
+  height: 34px;
+  box-sizing: border-box;
+  border-radius: 43px;
+  background-color: transparent;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  color: #2C2C2C;
+  border: 1px solid #EEEEEE;
+
+  &:nth-child(1),&:nth-child(2){
+    margin-right: 16px;
+  }
+  &:hover {
+    background-color: #EEEEEE;
+  }
+  &.border{
+    border: 1px solid #C83F51;
+    font-weight: 400;
+  }
+}
+.radio-step1:checked  +  .contest-work-initial-btn{
+  border: 1px solid #C83F51;
+  font-weight: 400;
+}

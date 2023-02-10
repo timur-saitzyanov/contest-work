@@ -1,0 +1,396 @@
+@import "./resources/js/apps/scss/mixins.scss";
+@import "./resources/js/apps/scss/variables.scss";
+
+.card-new__points {
+  display: flex;
+}
+.card-new {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+
+  &:hover {
+    box-shadow: 0 0 4px 5px rgba(0, 0, 0, 0.05);
+    z-index: 2;
+
+    .card-new__name {
+      white-space: normal;
+      overflow: visible;
+      text-overflow: ellipsis;
+    }
+
+    .card-new__favorite, .card-new__compare {
+      visibility: visible;
+    }
+  }
+
+  &__badge {
+    left: 15px;
+    right: auto;
+
+    .favorite-badge__card {
+      right: auto;
+    }
+  }
+
+  &__favorite, &__compare {
+    display: block;
+    visibility: hidden;
+    right: 15px;
+    left: auto;
+    @include bp($screen-md, max) {
+      display: block;
+    }
+  }
+
+  &__image-holder {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    //height: 298px;
+    text-align: center;
+  }
+
+  &__image {
+    min-width: 100%;
+    min-height: 100%;
+    display: inline-flex;
+    flex: 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+
+    img {
+      max-height: 100%;
+    }
+  }
+
+
+  &__points {
+    display: none;
+    position: absolute;
+    align-self: center;
+    top: -15px;
+    justify-content: space-between;
+    margin: 4px auto 0;
+  }
+
+  &__point {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: #D3D3D3;
+    margin: 0 5px;
+
+    &:before {
+      display: none;
+    }
+
+    &.active {
+      background-color: #E939C2;
+    }
+
+    @include bp($screen-sm, max) {
+      width: 15px;
+      height: 15px;
+    }
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 67px;
+    background-color: #FFFFFF;
+    //margin-top: 15px;
+
+    &.full {
+      height: auto;
+      margin-bottom: 30px;
+
+      .card-new__points {
+        display: flex;
+      }
+
+      .card-new__name {
+        white-space: normal;
+        overflow: visible;
+        text-overflow: ellipsis;
+      }
+    }
+
+    @include bp($screen-sm, max) {
+      margin-top: 30px;
+    }
+  }
+
+  &__price {
+
+    &-now {
+      display: inline-flex;
+      align-items: baseline;
+      color: black;
+      font-size: 30px;
+      line-height: 150%;
+      margin-right: 10px;
+      font-weight: 600;
+
+      .card-new__price-suffix {
+        margin-left: 2px;
+        font-size: 15px;
+        line-height: 150%;
+        font-weight: normal;
+      }
+
+      @include bp($screen-sm, max) {
+        font-weight: 600;
+        font-size: 22px;
+        color: #061A33;
+        margin-right: 0;
+      }
+    }
+
+    &-prev {
+      display: inline-flex;
+      align-items: baseline;
+      justify-content: center;
+      position: relative;
+      color: #A2A2A2;
+      font-size: 18px;
+      line-height: 150%;
+
+      svg {
+        position: absolute;
+        bottom: 8px;
+      }
+
+      .card-new__price-suffix {
+        margin-left: 2px;
+        font-size: 14px;
+        line-height: 150%;
+      }
+
+      @include bp($screen-sm, max) {
+        font-size: 12px;
+        overflow: hidden;
+        padding: 0 4px;
+
+        .card-new__price-suffix {
+          font-size: 10px;
+        }
+        .svg {
+          width: 100%;
+        }
+
+      }
+    }
+  }
+
+  &__title {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 120%;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 1;
+
+    &.full {
+      position: relative;
+    }
+  }
+
+  &__name {
+    display: block;
+    width: 100%;
+    font-weight: normal;
+    font-size: 18px;
+    color: #a79f99;
+    line-height: 120%;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    @include bp($screen-sm, max) {
+      height: 60px;
+      white-space: normal;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    a {
+      color: #000000;
+    }
+  }
+
+  &__structure {
+    margin-top: auto;
+    margin-bottom: 24px;
+  }
+
+  &__details {
+    &--down {
+      margin-top: auto;
+    }
+  }
+
+  &__h3 {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 120%;
+    color: #9F9F9F;
+    margin: 0;
+  }
+
+  &__mods {
+    .favorite-color__select--category {
+      margin-top: 4px;
+    }
+
+    .favorite-color__item {
+      width: 22px;
+      height: 22px;
+    }
+  }
+
+  &__mods-text {
+    margin: 0;
+
+    li {
+      border: 1px solid #E939C2;
+      font-size: 15px;
+      line-height: 120%;
+      padding: 4px 12px 3px 13px !important;
+
+      div {
+        line-height: 100%;
+      }
+    }
+  }
+
+  .favorite-color__select-color {
+    color: #9F9F9F;
+    margin-bottom: 0;
+  }
+
+  .card__colors-inner {
+    margin: 0;
+
+    li {
+      border: 1px solid #E939C2;
+      margin-top: 4px;
+      margin-right: 4px;
+    }
+  }
+
+  &__delimiter {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #E939C2;
+    padding: 5rem 0 4rem;
+
+    &::before, &::after {
+      position: absolute;
+      left: 3%;
+      content: '';
+      width: 40%;
+      display: block;
+      height: 1px;
+      background-color: #E939C2;
+    }
+
+    &::after {
+      left: auto;
+      right: 3%;
+    }
+  }
+
+  &__details--mini {
+    display: none;
+  }
+
+  @include bp($screen-sm, max) {
+    &.nofull {
+      margin: 0 0 40px;
+      padding: 12px 0 0;
+
+      &:nth-child(odd) {
+        margin-right: 16px;
+      }
+
+      .badge-cards {
+        top: 0;
+        left: 0;
+      }
+
+      .card-new__image-holder {
+        height: 135px;
+
+        picture {
+          max-height: 135px;
+        }
+
+        img {
+          max-height: 135px;
+        }
+      }
+
+      .card-new__image {
+        margin: 0;
+      }
+
+
+      .card-new__details--mini {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 32px;
+        width: 100%;
+        border: 1px solid #C83F51;
+        border-radius: 5px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 100%;
+        color: #C83F51;
+
+        &:hover, &:active, &:focus {
+          background-color: #C83F51;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  @include bp($screen-sm, max) {
+    &:hover {
+      box-shadow: none;
+    }
+  }
+
+  @include bp($screen-600, max) {
+    border-radius: 0;
+  }
+}
+
+// Возможно нужно будет удалить при подключении GetImageToUri
+.card-new__image img{
+  width: 100%;
+  height: auto;
+}
+.card-new__image-holder {
+  margin-bottom: 16px;
+}
+.card-new__text.full {
+  margin-bottom: 0;
+}

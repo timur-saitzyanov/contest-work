@@ -1,0 +1,160 @@
+.main-contest-app {
+  position: relative;
+}
+
+.winner__title {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.winner__label {
+  margin-left: 16px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  color: #000000;
+}
+.wrap-archive-btns {
+  margin-top: 40px;
+  display: flex;
+}
+
+@media screen and (max-width: 1252px) {
+  .action__label {
+    padding-top: 30px !important;
+    font-size: 30px !important;
+  }
+  .action__cards {
+    grid-gap: 0 !important;
+  }
+  .take-part {
+    height: 394px !important;
+  }
+  .action__right-block {
+    top: 34% !important;
+  }
+  //.wrapper {
+  //  padding-left: 15px;
+  //  padding-right: 15px;
+  //}
+    .take-part__body {
+         padding-left: 15px;
+        padding-right: 15px;
+    }
+    .archive-link-mobile-text {
+        padding-left: 15px;
+    }
+    .archive-link-mobile {
+        div div {
+            padding-right: 15px;
+        }
+    }
+     .tabs-category, .winner__title {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+    section.tabs-category {
+        width:calc(100% - 30px);
+    }
+
+}
+@media screen and (max-width: 991px){
+    .cards-goods, .switching-arrow {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+    .archive-link {
+        margin-right: 15px;
+    }
+}
+@media screen and (max-width: 900px) {
+  .action__left-block {
+    display: none;
+  }
+  .take-part {
+    height: 242px !important;
+  }
+  .action__label {
+    max-width: 500px !important;
+  }
+  .action__right-block {
+    top: 14% !important;
+  }
+  .btns-go-out {
+    margin-top: 12px !important;
+  }
+  .contest-work-initial-btn {
+    font-size: 14px !important;
+    padding: 0 12px !important;
+  }
+}
+
+@media screen and (max-width: 708px) {
+  .main__action-every__body .action__label {
+    font-size: 20px !important;
+    max-width: 380px !important;
+  }
+  .btns-go-out {
+    margin-top: 40px !important;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .action__right-block {
+    z-index: -1;
+    top: 18% !important;
+    right: -2% !important;
+  }
+  .take-part {
+    height: 290px !important;
+  }
+  .btns-go-out {
+    margin-top: 90px !important;
+  }
+  .action__right-block {
+    top: 33% !important;
+  }
+}
+
+@media screen and (max-width: 606px) {
+  .contest-work-initial-btn:nth-child(1), .contest-work-initial-btn:nth-child(2) {
+    margin-right: 8px !important;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .archive-link {
+    display: none;
+  }
+  .archive-link-mobile {
+    display: flex !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contest-work-initial__btns {
+    overflow: auto;
+      max-width:420px;
+    width: 420px;
+  }
+  .winner__label {
+    font-size: 17px !important;
+  }
+  .App {
+    margin-top: 0 !important;
+  }
+
+}
+@media screen and (max-width: 360px){
+  .cards-goods {
+    width: 100vw;
+  }
+  .cards-goods__container {
+    grid-gap: 0 !important;
+  }
+  .winnersWrap {
+    grid-gap: 30px !important;
+  }
+}

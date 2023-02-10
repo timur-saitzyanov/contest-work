@@ -1,0 +1,23 @@
+p {
+  margin: 0;
+}
+.App {
+  font-family: "Ubuntu" ,sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 32px auto 0 auto;
+  min-height: 100%;
+  max-width: 1598px;
+
+}
+.n-content {
+  display:block;
+}
+@media screen and (max-width: 446px) {
+  .wrapper {
+    overflow-x: hidden !important;
+  }
+}
+
+
+

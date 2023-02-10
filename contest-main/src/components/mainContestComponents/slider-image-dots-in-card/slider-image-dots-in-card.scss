@@ -1,0 +1,30 @@
+.imageSliders {
+
+}
+.imageInSlider {
+
+}
+.imageSliders-images {
+
+}
+.imageSliderDotS {
+
+}
+.imageSliderDot {
+
+}
+.card-new--contest-lk:hover {
+  box-shadow: none !important;
+}
+
+.card-new--contest-lk {
+  padding: 0;
+  position: relative;
+  margin-top: 0;
+    img {
+        @media screen and (min-width: 1600px){
+            min-height: 378px;
+        }
+    }
+}
+

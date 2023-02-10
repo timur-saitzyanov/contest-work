@@ -1,0 +1,14 @@
+.goods__username {
+  margin-left: 12px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #2C2C2C;
+}
+.goods__username.short {
+  max-width: 130px;
+}

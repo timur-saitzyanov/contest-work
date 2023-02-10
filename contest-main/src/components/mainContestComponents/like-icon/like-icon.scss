@@ -1,0 +1,12 @@
+.like-disabled {
+  font-size: 0;
+}
+.likesvg {
+  margin: 0 0 0 0;
+  font-size: 4px;
+    &.active {
+        svg path{
+            fill:white;
+        }
+    }
+}
